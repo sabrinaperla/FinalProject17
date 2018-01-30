@@ -10,29 +10,28 @@ name= input("What is your name?")
 if crushpronoun == 'he':
     object_pronoun = 'him'
     possessive_pronoun = 'his'
-if crushpronoun == 'she':
+elif crushpronoun == 'she':
     object_pronoun = 'her'
     possessive_pronoun = 'hers'
-if crushpronoun == 'they':
+elif crushpronoun == 'they':
     object_pronoun = 'them'
     possessive_pronoun = 'theirs'
 
-
-
-
-#the following is the story that the pronouns and names will be input into
+# the following is the story that the pronouns and names will be input into
 
 story = """You and {} have been best friends forever; perhaps not forever, but for as long as either of you can remember.
 Prom is rapidly approaching; 4 weeks away to be exact. You secretly want {} to ask you, and {} secretly wants to ask you.
 But you are both aware of the elephant in the room; what if things don’t work out?
-You decide life is too short to worry about if’s, so you convince yourself to ask your best friend before it’s too late.
-You are planning a scavenger hunt promposal with your crushes favorite things.
+You decide life is too short to worry about ifs, so you convince yourself to ask your best friend before it’s too late.
+You are planning a scavenger hunt promposal with your crush's favorite things.
 You will tell your crush to go to {} favorite places, where {} will hopefully find a piece of the heart.
-The catch is: if your hints don't lead your crush to their favorite place, {} won’t find a piece of the heart.
-At the end, {} will hopefully have enough pieces to complete your half of the heart, and you will go happily to prom together.
-""".format(crushname, object_pronoun, crushpronoun, object_pronoun, crushpronoun, object_pronoun, crushpronoun, crushpronoun, object_pronoun)
+The catch is: if your hints don't lead your crush to {} favorite place, {} won’t find a piece of the heart.
+At the end, {} will hopefully have enough pieces to complete your half of the heart, and you will go happily to prom together
+""".format(crushname, object_pronoun, crushpronoun, object_pronoun, crushpronoun, crushpronoun, crushpronoun, crushpronoun)
 
-rules = """You will be asked 20 questions, you need to get at least 15 right in order for your crush to complete the scavenger height. For the following multiple choice questions, only answer the letter. If the answer is d only type in d"""
+rules = """You will be asked 20 questions, you need to get at least 15 right in order for your crush to complete the promposal scavenger hunt.
+For the following multiple choice questions, only answer the letter. If the answer is d only type in d"""
+
 # the following is the multiple choices that their crush will follow to find the next clue in the scavenger hunt
 
 class Crush():
